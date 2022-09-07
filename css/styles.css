@@ -132,7 +132,7 @@ img {
   display: flex;
   margin-left: auto;
 }
-.cont-icon{
+.cont-icon {
   fill: rgba(117, 117, 117, 1);
   margin-right: 10px;
 }
@@ -140,11 +140,11 @@ img {
   color: #757575;
 }
 .contact-link:hover,
-.contact-link:focus{
+.contact-link:focus {
   color: #2196f3;
 }
-.contact-link:hover .cont-icon ,
-.contact-link:focus .cont-icon{
+.contact-link:hover .cont-icon,
+.contact-link:focus .cont-icon {
   fill: #2196f3;
 }
 .contact-link {
@@ -161,14 +161,19 @@ img {
   padding-bottom: 32px;
 }
 
-  /* секція героя*/
+/* секція героя*/
 .hero {
   text-align: center;
   height: 600px;
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../Images/bg-hero.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../Images/bg-hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -236,14 +241,14 @@ img {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.fich-tabl{
+.fich-tabl {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 120px;
   width: 270px;
   margin-bottom: 30px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 /*чим ми займаємося*/
 
@@ -307,19 +312,19 @@ img {
   margin-top: 10px;
   color: #757575;
 }
-.soc-list{
+.soc-list {
   display: flex;
   justify-content: center;
 }
-.soc-card{
+.soc-card {
   width: 44px;
   height: 44px;
   margin-right: 10px;
 }
-.soc-card:last-child{
+.soc-card:last-child {
   margin-right: 0px;
 }
-.soc-road{
+.soc-road {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -328,20 +333,20 @@ img {
   border-radius: 50%;
   background-color: #ffffff;
 }
-.soc-road{
+.soc-road {
   fill: #afb1b8;
 }
 .soc-road:hover,
-.soc-road:focus{
+.soc-road:focus {
   background-color: #2196f3;
   cursor: pointer;
 }
 .soc-road:hover .soc-icon,
-.soc-road:focus .soc-icon{
-  fill:#ffffff;
+.soc-road:focus .soc-icon {
+  fill: #ffffff;
 }
 /*Наші постійні кліенти*/
-.client-hed{
+.client-hed {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -349,17 +354,17 @@ img {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
-.client-list{
+.client-list {
   display: flex;
   justify-content: center;
   margin-bottom: 94px;
 }
-.client-item{
+.client-item {
   width: 170px;
   height: 92px;
   margin-right: 30px;
 }
-.client-link{
+.client-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -370,11 +375,15 @@ img {
   background-color: #ffffff;
 }
 .client-link:hover,
-.client-link:focus{
+.client-link:focus {
   border: 1px solid #2196f3;
 }
+.client-logo {
+  fill: #afb1b8;
+}
+
 .client-link:hover .client-logo,
-.client-link:focus .client-logo{
+.client-link:focus .client-logo {
   fill: #2196f3;
 }
 
@@ -384,14 +393,18 @@ img {
   display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
-.bottom-container{
+.bottom-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
   display: flex;
   align-items: baseline;
 }
-
-.logo-b{
+.logo-b {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -404,12 +417,10 @@ img {
 .accent-bottom {
   color: #2196f3;
 }
-  
 
 .adress-bottom {
-  font-style: normal;
-  margin-top: 20px;
   display: flex;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -418,7 +429,7 @@ img {
 .bottom-contact:not(:last-child) {
   margin-bottom: 9px;
 }
-.adress-list{
+.adress-list {
   margin-top: 20px;
 }
 .adress-street {
@@ -447,10 +458,10 @@ img {
 .adress-link:focus {
   color: #2196f3;
 }
-.start{
+.start {
   margin-left: 70px;
 }
-.start-go{
+.start-go {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -459,16 +470,16 @@ img {
   color: #ffffff;
   margin-bottom: 20px;
 }
-.start-list{
+.start-list {
   display: flex;
   justify-content: normal;
 }
-.start-item{
+.start-item {
   width: 44px;
   height: 44px;
   margin-right: 10px;
 }
-.start-link{
+.start-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -477,16 +488,16 @@ img {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
-.start-icon{
+.start-icon {
   fill: #ffffff;
 }
 .start-link:hover,
-.start-link:focus{
+.start-link:focus {
   background-color: #2196f3;
   cursor: pointer;
 }
 .start-link:hover .start-icon,
-.start-link:focus .start-icon{
+.start-link:focus .start-icon {
   fill: #ffffff;
 }
 /*портфоліо*/
